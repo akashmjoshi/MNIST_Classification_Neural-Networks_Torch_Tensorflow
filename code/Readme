@@ -1,0 +1,45 @@
+Description:
+
+EE 569 Homework 4
+Date: 4 December 2016
+Name: Akash Mukesh Joshi
+USCID: 4703642421
+Email: akashjos@usc.edu
+Dependencies: nn, optim, image, gnuplot
+Programming file description:
+
+prb1:
+
+Training and testing LeNet-5 architecture on MNIST dataset.
+Plotting accuracy vs epochs graphs on training and testing sets.
+Testing the trained model from cnn_p1 on negative images
+
+prb2prta:
+
+Training a new network for better performance on original and
+negative images.
+Plotting accuracy vs epochs graphs on training and testing sets.
+
+prb2prtb:
+
+Training and testing LeNet-5 architecture on colored mnist dataset.
+Plotting accuracy vs epochs graphs on training and testing sets.
+
+prb2prtc:
+
+Testing Translation Invariance of model trained from cnn_p1.
+Plotting accuracy vs translational invariances on testing data.
+cnn_p5: Upda
+
+Guidelines for running the code:
+
+This code uses torch. Make sure you have installed the latest version
+of torch on your machine.
+The input data (mnist test and train) must be contained in the source
+folder.
+To compile and start training just type:
+> dofile "prb1.lua"
+> dofile "prb2prta.lua"
+> dofile "prb2prtb.lua"
+> dofile "prb2prtc.lua"
+
